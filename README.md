@@ -22,3 +22,15 @@ class Home extends React.Component {
 ```
 
 Screens would contain screen components that have to be insterted into the stack, in a react way. 
+
+
+# Props
+
+endpoint?: server endpoint
+token?: api access token
+style?: different UI style, e.g. list/grid or theme
+
+**variables:**
+* franchise
+* city
+* ???
