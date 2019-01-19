@@ -15,7 +15,7 @@ class Home extends React.Component {
   render(){
     const city = this.props.query.city;
     return ( 
-      <CommunityList franchise="WeWork" city={city} />
+      <CommunityList franchise="WeWork" city={city} type="coworking" />
     );
   }
 } 
@@ -33,4 +33,5 @@ Screens would contain screen components that have to be insterted into the stack
 **variables:**
 * franchise
 * city
+* type: coworking | house | street | company | association | ....
 * ???
