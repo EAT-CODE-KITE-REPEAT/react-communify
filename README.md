@@ -26,9 +26,9 @@ Screens would contain screen components that have to be insterted into the stack
 
 # Props
 
-endpoint?: server endpoint
-token?: api access token
-style?: different UI style, e.g. list/grid or theme
+* endpoint?: server endpoint
+* token?: api access token
+* style?: different UI style, e.g. list/grid or theme
 
 **variables:**
 * franchise
