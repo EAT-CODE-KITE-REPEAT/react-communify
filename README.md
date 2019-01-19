@@ -13,8 +13,9 @@ import { CommunityList, EventsList, JobList, MentorList, StartupList, screens } 
 class Home extends React.Component {
 
   render(){
+    const city = this.props.query.city;
     return ( 
-      <CommunityList franchise="WeWork" />
+      <CommunityList franchise="WeWork" city={city} />
     );
   }
 } 
